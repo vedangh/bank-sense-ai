@@ -1,0 +1,12 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+models/bert_model/
+Bank_Sense_AI/models/bert_model/
+*.safetensors
+*.bin
+*.pt
+*.pth

@@ -1,0 +1,14 @@
+# Requirements for "Self-Attention Resolves 'Bank'" Project
+# Compatible with Python 3.10 - 3.14 on Windows, Linux, and macOS
+
+torch>=2.0.0
+transformers>=4.35.0
+scikit-learn>=1.3.0
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.18.0
+streamlit>=1.35.0
+tqdm>=4.66.0
+joblib>=1.3.0

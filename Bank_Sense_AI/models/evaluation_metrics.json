@@ -1,0 +1,72 @@
+{
+  "accuracy": 1.0,
+  "macro_avg": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0
+  },
+  "weighted_avg": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0
+  },
+  "class_metrics": {
+    "financial": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 158
+    },
+    "river": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 157
+    }
+  },
+  "confusion_matrix": {
+    "matrix": [
+      [
+        158,
+        0
+      ],
+      [
+        0,
+        157
+      ]
+    ],
+    "true_positives": 158,
+    "true_negatives": 157,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "total_test_samples": 315
+  },
+  "classification_report_dict": {
+    "financial": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 158.0
+    },
+    "river": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 157.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 315.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 315.0
+    }
+  },
+  "classification_report_text": "              precision    recall  f1-score   support\n\n   financial       1.00      1.00      1.00       158\n       river       1.00      1.00      1.00       157\n\n    accuracy                           1.00       315\n   macro avg       1.00      1.00      1.00       315\nweighted avg       1.00      1.00      1.00       315\n"
+}
